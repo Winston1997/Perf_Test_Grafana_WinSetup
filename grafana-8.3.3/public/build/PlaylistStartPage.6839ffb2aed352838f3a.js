@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrafana=self.webpackChunkgrafana||[]).push([[3090],{"./public/app/features/playlist/PlaylistStartPage.tsx":(a,t,s)=>{s.r(t),s.d(t,{PlaylistStartPage:()=>r,default:()=>e});var l=s("./public/app/features/playlist/PlaylistSrv.ts");const r=({match:a})=>(l.r0.start(parseInt(a.params.id,10)),null),e=r}}]);
+//# sourceMappingURL=PlaylistStartPage.6839ffb2aed352838f3a.js.map

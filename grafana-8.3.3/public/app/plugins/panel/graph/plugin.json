@@ -1,0 +1,17 @@
+{
+  "type": "panel",
+  "name": "Graph (old)",
+  "id": "graph",
+
+  "info": {
+    "description": "The old default graph panel",
+    "author": {
+      "name": "Grafana Labs",
+      "url": "https://grafana.com"
+    },
+    "logos": {
+      "small": "img/icn-graph-panel.svg",
+      "large": "img/icn-graph-panel.svg"
+    }
+  }
+}

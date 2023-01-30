@@ -1,0 +1,207 @@
+t=2022-08-09T13:51:51+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+t=2022-08-09T13:51:56+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2022-08-09T13:51:56+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2022-08-09T13:51:56+0800 lvl=info msg="Config loaded from" logger=settings file=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3/conf/defaults.ini
+t=2022-08-09T13:51:56+0800 lvl=info msg="Path Home" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3
+t=2022-08-09T13:51:56+0800 lvl=info msg="Path Data" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data
+t=2022-08-09T13:51:56+0800 lvl=info msg="Path Logs" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\log
+t=2022-08-09T13:51:56+0800 lvl=info msg="Path Plugins" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\plugins
+t=2022-08-09T13:51:56+0800 lvl=info msg="Path Provisioning" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\conf\\provisioning
+t=2022-08-09T13:51:56+0800 lvl=info msg="App mode production" logger=settings
+t=2022-08-09T13:51:56+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2022-08-09T13:51:56+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2022-08-09T13:51:56+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2022-08-09T13:51:56+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=3ms
+t=2022-08-09T13:51:56+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2022-08-09T13:51:56+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2022-08-09T13:51:56+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2022-08-09T13:51:56+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2022-08-09T13:51:56+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2022-08-09T13:51:56+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2022-08-09T13:52:12+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1322 size=0 referer=
+t=2022-08-09T13:52:20+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E0uKCSA1z address=grafana/dashboard/uid/E0uKCSA1z
+t=2022-08-09T14:22:29+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=12 size=0 referer=
+t=2022-08-09T14:22:35+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/J8MRm0w7z address=grafana/dashboard/uid/J8MRm0w7z
+t=2022-08-09T14:24:04+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=4 size=0 referer=
+t=2022-08-09T14:27:57+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=4 size=0 referer=
+t=2022-08-09T14:49:41+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+t=2022-08-09T15:01:17+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2022-08-09T15:01:17+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2022-08-09T15:01:17+0800 lvl=info msg="Config loaded from" logger=settings file=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3/conf/defaults.ini
+t=2022-08-09T15:01:17+0800 lvl=info msg="Path Home" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3
+t=2022-08-09T15:01:17+0800 lvl=info msg="Path Data" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data
+t=2022-08-09T15:01:17+0800 lvl=info msg="Path Logs" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\log
+t=2022-08-09T15:01:17+0800 lvl=info msg="Path Plugins" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\plugins
+t=2022-08-09T15:01:17+0800 lvl=info msg="Path Provisioning" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\conf\\provisioning
+t=2022-08-09T15:01:17+0800 lvl=info msg="App mode production" logger=settings
+t=2022-08-09T15:01:17+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2022-08-09T15:01:17+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2022-08-09T15:01:17+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2022-08-09T15:01:17+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=2ms
+t=2022-08-09T15:01:17+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2022-08-09T15:01:17+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2022-08-09T15:01:17+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2022-08-09T15:01:17+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2022-08-09T15:01:18+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2022-08-09T15:01:18+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2022-08-09T15:01:26+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=4 size=0 referer=
+t=2022-08-09T15:01:27+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E0uKCSA1z address=grafana/dashboard/uid/E0uKCSA1z
+t=2022-08-09T15:28:04+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+t=2022-08-10T16:30:05+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2022-08-10T16:30:05+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2022-08-10T16:30:05+0800 lvl=info msg="Config loaded from" logger=settings file=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3/conf/defaults.ini
+t=2022-08-10T16:30:05+0800 lvl=info msg="Path Home" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3
+t=2022-08-10T16:30:05+0800 lvl=info msg="Path Data" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data
+t=2022-08-10T16:30:05+0800 lvl=info msg="Path Logs" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\log
+t=2022-08-10T16:30:05+0800 lvl=info msg="Path Plugins" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\plugins
+t=2022-08-10T16:30:05+0800 lvl=info msg="Path Provisioning" logger=settings path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\conf\\provisioning
+t=2022-08-10T16:30:05+0800 lvl=info msg="App mode production" logger=settings
+t=2022-08-10T16:30:05+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2022-08-10T16:30:05+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=C:\\Users\\Administrator\\Desktop\\我常用的\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2022-08-10T16:30:05+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2022-08-10T16:30:05+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=1ms
+t=2022-08-10T16:30:05+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2022-08-10T16:30:05+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2022-08-10T16:30:05+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2022-08-10T16:30:05+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2022-08-10T16:30:05+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2022-08-10T16:30:05+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2022-08-10T16:30:29+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/favicon.ico status=404 remote_addr=[::1] time_ms=21 size=33288 referer=http://localhost:3000/
+t=2022-08-10T16:30:31+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=6 size=0 referer=
+t=2022-08-10T16:30:36+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E0uKCSA1z address=grafana/dashboard/uid/E0uKCSA1z
+t=2022-08-10T16:30:41+0800 lvl=eror msg="Data proxy error" logger=data-proxy-log userId=1 orgId=1 uname=admin path=/api/datasources/proxy/1/query remote_addr=[::1] referer="http://localhost:3000/d/E0uKCSA1z/epoint_xing-neng-ce-shi-yi-biao-ban?orgId=1&refresh=5s&from=now-2d&to=now" error="http: proxy error: context canceled"
+t=2022-08-10T16:30:41+0800 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/datasources/proxy/1/query status=502 remote_addr=[::1] time_ms=53 size=0 referer="http://localhost:3000/d/E0uKCSA1z/epoint_xing-neng-ce-shi-yi-biao-ban?orgId=1&refresh=5s&from=now-2d&to=now"
+t=2022-08-10T16:45:47+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=[::1]
+t=2022-08-10T16:45:47+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/apxmvRFGz status=404 remote_addr=[::1] time_ms=32 size=33 referer=http://localhost:3000/dashboard/import
+t=2022-08-10T16:45:49+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=[::1]
+t=2022-08-10T16:45:49+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/apxmvRFGz status=404 remote_addr=[::1] time_ms=8 size=33 referer=http://localhost:3000/dashboard/import
+t=2022-08-10T16:45:49+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/apxmvRFGz address=grafana/dashboard/uid/apxmvRFGz
+t=2022-08-10T16:47:15+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/datasources/proxy/1/query status=400 remote_addr=[::1] time_ms=52 size=77 referer="http://localhost:3000/d/E0uKCSA1z/epoint_xing-neng-ce-shi-yi-biao-ban?orgId=1&from=now-15m&to=now&editPanel=40"
+t=2022-08-10T16:47:49+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=5 size=0 referer=
+t=2022-08-10T16:49:29+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-10T16:49:29+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/1/query status=401 remote_addr=[::1] time_ms=133 size=32 referer="http://localhost:3000/d/E0uKCSA1z/epoint_xing-neng-ce-shi-yi-biao-ban?orgId=1&from=now-30m&to=now"
+t=2022-08-10T16:49:29+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-10T16:49:29+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/1/query status=401 remote_addr=[::1] time_ms=96 size=32 referer="http://localhost:3000/d/E0uKCSA1z/epoint_xing-neng-ce-shi-yi-biao-ban?orgId=1&from=now-30m&to=now"
+t=2022-08-10T16:49:55+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=4 size=0 referer=
+t=2022-08-10T16:50:43+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=5 size=0 referer=
+t=2022-08-10T16:55:12+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/J8MRm0w7z address=grafana/dashboard/uid/J8MRm0w7z
+t=2022-08-10T16:55:54+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: terminated"
+t=2022-08-11T17:09:41+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2022-08-11T17:09:41+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2022-08-11T17:09:41+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3/conf/defaults.ini
+t=2022-08-11T17:09:41+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3
+t=2022-08-11T17:09:41+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3\\data
+t=2022-08-11T17:09:41+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3\\data\\log
+t=2022-08-11T17:09:41+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3\\data\\plugins
+t=2022-08-11T17:09:41+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3\\conf\\provisioning
+t=2022-08-11T17:09:41+0800 lvl=info msg="App mode production" logger=settings
+t=2022-08-11T17:09:41+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2022-08-11T17:09:41+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\windows\\我常用的\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2022-08-11T17:09:41+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2022-08-11T17:09:41+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=585.9µs
+t=2022-08-11T17:09:41+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2022-08-11T17:09:41+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2022-08-11T17:09:41+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2022-08-11T17:09:42+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2022-08-11T17:09:42+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2022-08-11T17:09:42+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2022-08-11T17:10:19+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:10:19+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/ status=302 remote_addr=[::1] time_ms=3 size=29 referer=
+t=2022-08-11T17:10:19+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:10:22+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:10:22+0800 lvl=info msg="Successful Login" logger=http.server User=admin@localhost
+t=2022-08-11T17:10:23+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=2 size=0 referer=
+t=2022-08-11T17:10:26+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/J8MRm0w7z address=grafana/dashboard/uid/J8MRm0w7z
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Data proxy error" logger=data-proxy-log userId=1 orgId=1 uname=admin path=/api/datasources/proxy/2/query remote_addr=[::1] referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s" error="http: proxy error: context canceled"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/datasources/proxy/2/query status=502 remote_addr=[::1] time_ms=8 size=0 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:11:17+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=1 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:11:17+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=153 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:11:17+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=153 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Data proxy error" logger=data-proxy-log userId=1 orgId=1 uname=admin path=/api/datasources/proxy/2/query remote_addr=[::1] referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s" error="http: proxy error: context canceled"
+t=2022-08-11T17:11:17+0800 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/datasources/proxy/2/query status=502 remote_addr=[::1] time_ms=158 size=0 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:11:17+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1 size=0 referer=
+t=2022-08-11T17:12:12+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1 size=0 referer=
+t=2022-08-11T17:19:09+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:19:09+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=64 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:19:10+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:19:10+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:19:10+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="context canceled"
+t=2022-08-11T17:19:10+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=83 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:19:10+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=86 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:19:10+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=88 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s"
+t=2022-08-11T17:19:18+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1 size=0 referer=
+t=2022-08-11T17:20:24+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:20:24+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=296 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s&var-data_source=collectd&var-host=&var-device=0%20C:&var-device=1%20D:%20E:&var-df=C&var-ifname=All&var-multi_host="
+t=2022-08-11T17:20:24+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:20:24+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=356 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&refresh=5s&var-data_source=collectd&var-host=&var-device=0%20C:&var-device=1%20D:%20E:&var-df=C&var-ifname=All&var-multi_host="
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=eror msg="Request error" logger=context userId=1 orgId=1 uname=admin error="net/http: abort Handler"
+t=2022-08-11T17:20:35+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1 size=0 referer=
+t=2022-08-11T17:21:20+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=2 size=0 referer=
+t=2022-08-11T17:21:24+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=[::1] time_ms=1 size=0 referer=
+t=2022-08-11T17:40:45+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:40:45+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=462 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T17:40:45+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T17:40:45+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=620 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T18:00:47+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T18:00:47+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=418 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T18:20:49+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T18:20:49+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=398 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T18:20:49+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T18:20:49+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=415 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T18:20:49+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T18:20:49+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=428 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T18:50:53+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T18:50:53+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=493 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:10:54+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:10:54+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=324 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:10:54+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:10:54+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=231 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:20:55+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:20:55+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=286 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:40:57+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:40:57+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=280 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:40:57+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:40:57+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=180 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T19:50:58+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T19:50:58+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=267 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T20:21:01+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T20:21:01+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=385 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T20:21:02+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T20:21:02+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=432 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T20:31:03+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T20:31:03+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=296 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T20:41:03+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T20:41:03+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=360 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T20:51:05+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T20:51:05+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=205 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T21:01:06+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T21:01:06+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=237 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T21:51:12+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T21:51:12+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=206 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T22:21:15+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T22:21:15+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=262 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T22:21:15+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T22:21:15+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=431 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T22:41:17+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T22:41:17+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=420 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T22:41:17+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T22:41:17+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=495 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T23:01:19+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T23:01:19+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=354 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T23:11:20+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T23:11:20+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=193 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T23:21:21+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T23:21:21+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=357 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T23:41:23+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T23:41:23+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=417 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
+t=2022-08-11T23:51:24+0800 lvl=eror msg="Failed to look up user based on cookie" logger=context error="user token not found"
+t=2022-08-11T23:51:24+0800 lvl=info msg="Request Completed" logger=context userId=0 orgId=0 uname= method=GET path=/api/datasources/proxy/2/query status=401 remote_addr=[::1] time_ms=299 size=32 referer="http://localhost:3000/d/J8MRm0w7z/collectdjian-kong?orgId=1&var-data_source=collectd&var-host=192.168.153.188&var-df=C&var-ifname=Realtek%20PCIe%20GbE%20Family%20Controller&var-multi_host=&from=now-3h&to=now&var-device=1%20D:%20E:"
