@@ -23,7 +23,7 @@
 
 ![image](https://github.com/Winston1997/Perf_Test_Grafana_Setup/blob/master/IMG/readme3.png)
 
-4、项目结束时记得帮别人卸载哦，运行下面这个脚本即可
+4、删除服务运行下面这个脚本即可
 
 ![image](https://github.com/Winston1997/Perf_Test_Grafana_Setup/blob/master/IMG/readme4.png)
 
