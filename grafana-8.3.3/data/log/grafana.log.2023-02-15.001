@@ -1,0 +1,181 @@
+t=2023-02-09T15:17:46+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-09T15:17:46+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-09T15:17:46+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-09T15:17:46+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-09T15:17:46+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-09T15:17:46+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-09T15:17:46+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-09T15:17:46+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-09T15:17:46+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-09T15:17:46+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-09T15:17:46+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-09T15:17:46+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-09T15:17:46+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=0s
+t=2023-02-09T15:17:47+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-09T15:17:48+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-09T15:17:49+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-09T15:17:54+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-09T15:17:54+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-09T15:17:54+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-09T15:18:01+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=267 size=0 referer=
+t=2023-02-09T15:18:04+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-09T15:19:04+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=2 size=0 referer=
+t=2023-02-09T15:19:06+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-09T15:19:06+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=78 size=33 referer=http://127.0.0.1:3000/dashboard/import?chunkNotFound
+t=2023-02-09T15:19:07+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-09T15:19:07+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=2 size=33 referer=http://127.0.0.1:3000/dashboard/import?chunkNotFound
+t=2023-02-09T15:19:18+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T09:30:01+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T09:30:01+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T09:30:01+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T09:30:01+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T09:30:01+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T09:30:01+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T09:30:01+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T09:30:01+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T09:30:01+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T09:30:01+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T09:30:01+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T09:30:01+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T09:30:01+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=518µs
+t=2023-02-14T09:30:01+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T09:30:03+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T09:30:03+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T09:30:05+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T09:30:05+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T09:30:05+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T09:30:16+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=185 size=0 referer=
+t=2023-02-14T09:30:23+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-14T09:30:38+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=POST path=/api/dashboards/db/ status=404 remote_addr=127.0.0.1 time_ms=13 size=54 referer="http://127.0.0.1:3000/d/E1uKCSA1z/new_jmeter_dashboard-beta?orgId=1&editview=dashboard_json"
+t=2023-02-14T09:30:52+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T09:30:52+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=9 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T09:30:53+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T09:30:53+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T09:32:01+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T09:32:11+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T09:32:11+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T09:32:11+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T09:32:11+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T09:32:11+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T09:32:11+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T09:32:11+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T09:32:11+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T09:32:11+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T09:32:11+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T09:32:11+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T09:32:11+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T09:32:11+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=0s
+t=2023-02-14T09:32:11+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T09:32:11+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T09:32:11+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T09:32:12+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T09:32:12+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T09:32:12+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T09:32:15+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=3 size=0 referer=
+t=2023-02-14T09:32:15+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-14T09:32:29+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=3 size=0 referer=
+t=2023-02-14T09:33:08+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T09:45:38+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T09:45:38+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T09:45:38+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T09:45:38+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T09:45:38+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T09:45:38+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T09:45:38+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T09:45:38+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T09:45:38+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T09:45:38+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T09:45:38+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T09:45:38+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T09:45:38+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=602.1µs
+t=2023-02-14T09:45:38+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T09:45:38+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T09:45:38+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T09:45:38+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T09:45:38+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T09:45:38+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T09:46:18+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=91 size=0 referer=
+t=2023-02-14T09:46:20+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-14T09:46:35+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T09:46:35+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=11 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T09:46:36+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T09:46:36+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T09:47:08+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T10:11:52+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T10:11:52+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T10:11:52+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T10:11:52+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T10:11:52+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T10:11:52+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T10:11:52+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T10:11:52+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T10:11:52+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T10:11:52+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T10:11:52+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T10:11:52+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T10:11:52+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=0s
+t=2023-02-14T10:11:52+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T10:11:52+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T10:11:52+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T10:11:52+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T10:11:52+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T10:11:52+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T10:13:01+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T10:13:10+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T10:13:10+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T10:13:10+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T10:13:10+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T10:13:10+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T10:13:10+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T10:13:10+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T10:13:10+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T10:13:10+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T10:13:10+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T10:13:10+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T10:13:10+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T10:13:10+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=0s
+t=2023-02-14T10:13:10+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T10:13:10+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T10:13:10+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T10:13:10+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T10:13:10+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T10:13:10+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T10:13:30+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=2 size=0 referer=
+t=2023-02-14T10:13:34+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-14T10:13:47+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T10:13:47+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=2 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T10:13:54+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T10:13:54+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T10:15:29+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T10:15:29+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=6 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T10:15:30+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T10:15:30+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T10:16:00+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-14T16:05:32+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-14T16:05:32+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-14T16:05:32+0800 lvl=info msg="Config loaded from" logger=settings file=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-14T16:05:32+0800 lvl=info msg="Path Home" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-14T16:05:32+0800 lvl=info msg="Path Data" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-14T16:05:32+0800 lvl=info msg="Path Logs" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-14T16:05:32+0800 lvl=info msg="Path Plugins" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-14T16:05:32+0800 lvl=info msg="Path Provisioning" logger=settings path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-14T16:05:32+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-14T16:05:32+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-14T16:05:32+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=D:\\压测机环境配置\\grafana部署\\监控端部署包\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-14T16:05:32+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-14T16:05:32+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=1.034ms
+t=2023-02-14T16:05:32+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-14T16:05:32+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-14T16:05:32+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-14T16:05:32+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-14T16:05:32+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-14T16:05:32+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-14T16:05:46+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=126 size=0 referer=
+t=2023-02-14T16:06:59+0800 lvl=eror msg="Data proxy error" logger=data-proxy-log userId=1 orgId=1 uname=admin path=/api/datasources/proxy/6/query remote_addr=127.0.0.1 referer=http://127.0.0.1:3000/datasources/edit/C8T-IdJ4k error="http: proxy error: dial tcp 81.68.232.183:8086: i/o timeout"
+t=2023-02-14T16:06:59+0800 lvl=eror msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/datasources/proxy/6/query status=502 remote_addr=127.0.0.1 time_ms=10017 size=0 referer=http://127.0.0.1:3000/datasources/edit/C8T-IdJ4k
+t=2023-02-14T16:07:28+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/J8MRm0w7z address=grafana/dashboard/uid/J8MRm0w7z
+t=2023-02-14T16:08:43+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T16:08:43+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/J8MRm0w7z status=404 remote_addr=127.0.0.1 time_ms=5 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T16:08:44+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-14T16:08:44+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/J8MRm0w7z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-14T16:11:41+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=2 size=0 referer=
