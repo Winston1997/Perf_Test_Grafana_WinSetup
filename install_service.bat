@@ -21,13 +21,18 @@ echo Creating Grafana service...
 .\nssm.exe install Grafana %serviceApp1%
 echo Starting service...
 .\nssm.exe start Grafana
+timeout /t 3
 sc query "Grafana" |findstr /i "RUNNING" >nul &&echo Success£¬Grafana is RUNNING£¡ ||echo Starting Failed (>_<)..
 
 echo Creating InfluxDB service...
 .\nssm.exe install InfluxDB %serviceApp2%
 echo Starting service...
 .\nssm.exe start InfluxDB
+timeout /t 3
 sc query "InfluxDB" |findstr /i "RUNNING" >nul &&echo Success£¬InfluxDB is RUNNING£¡ ||echo Starting Failed (>_<)..
-
+echo Creating Firewalld Rules
+netsh advfirewall firewall add rule name="Grafana" protocol=TCP dir=in action=allow localport=3000
+netsh advfirewall firewall add rule name="influxDB_TCP" protocol=TCP dir=in action=allow localport=8086
+netsh advfirewall firewall add rule name="influxDB_UDP" protocol=UDP dir=in action=allow  localport=25826
 timeout /T 5
 exit
