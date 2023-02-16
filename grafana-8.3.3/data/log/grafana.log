@@ -1,1 +1,44 @@
 t=2023-02-15T09:04:14+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2023-02-16T09:16:17+0800 lvl=info msg="The state of unified alerting is still not defined. The decision will be made during as we run the database migrations" logger=settings
+t=2023-02-16T09:16:17+0800 lvl=warn msg="falling back to legacy setting of 'min_interval_seconds'; please use the configuration option in the `unified_alerting` section if Grafana 8 alerts are enabled." logger=settings
+t=2023-02-16T09:16:17+0800 lvl=info msg="Config loaded from" logger=settings file=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3/conf/defaults.ini
+t=2023-02-16T09:16:17+0800 lvl=info msg="Path Home" logger=settings path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3
+t=2023-02-16T09:16:17+0800 lvl=info msg="Path Data" logger=settings path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data
+t=2023-02-16T09:16:17+0800 lvl=info msg="Path Logs" logger=settings path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\log
+t=2023-02-16T09:16:17+0800 lvl=info msg="Path Plugins" logger=settings path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\plugins
+t=2023-02-16T09:16:17+0800 lvl=info msg="Path Provisioning" logger=settings path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3\\conf\\provisioning
+t=2023-02-16T09:16:17+0800 lvl=info msg="App mode production" logger=settings
+t=2023-02-16T09:16:17+0800 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2023-02-16T09:16:17+0800 lvl=warn msg="SQLite database file has broader permissions than it should" logger=sqlstore path=E:\\windows一键部署Grafana压测环境\\grafana-8.3.3\\data\\grafana.db mode=-rw-rw-rw- expected=-rw-r-----
+t=2023-02-16T09:16:17+0800 lvl=info msg="Starting DB migrations" logger=migrator
+t=2023-02-16T09:16:17+0800 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=377 duration=517.7µs
+t=2023-02-16T09:16:17+0800 lvl=info msg="Initialising plugins" logger=plugin.manager
+t=2023-02-16T09:16:17+0800 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+t=2023-02-16T09:16:17+0800 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2023-02-16T09:16:18+0800 lvl=info msg="warming cache for startup" logger=ngalert
+t=2023-02-16T09:16:18+0800 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+t=2023-02-16T09:16:18+0800 lvl=info msg="starting MultiOrg Alertmanager" logger=ngalert.multiorg.alertmanager
+t=2023-02-16T09:16:31+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=127.0.0.1 time_ms=77 size=0 referer=
+t=2023-02-16T09:16:35+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/J8MRm0w7z address=grafana/dashboard/uid/J8MRm0w7z
+t=2023-02-16T09:16:41+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/E1uKCSA1z address=grafana/dashboard/uid/E1uKCSA1z
+t=2023-02-16T09:16:46+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/4dY4lk44z address=grafana/dashboard/uid/4dY4lk44z
+t=2023-02-16T09:16:52+0800 lvl=info msg="Initialized channel handler" logger=live channel=grafana/dashboard/uid/tijbLdm4k address=grafana/dashboard/uid/tijbLdm4k
+t=2023-02-16T09:17:46+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:17:46+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/J8MRm0w7z status=404 remote_addr=127.0.0.1 time_ms=53 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:17:47+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:17:47+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/J8MRm0w7z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:18:18+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:18:18+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=26 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:18:20+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:18:20+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=2 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:18:22+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:18:22+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/E1uKCSA1z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:18:56+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:18:56+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/4dY4lk44z status=404 remote_addr=127.0.0.1 time_ms=2 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:18:57+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:18:57+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/4dY4lk44z status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:19:34+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:19:34+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/tijbLdm4k status=404 remote_addr=127.0.0.1 time_ms=2 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:19:35+0800 lvl=eror msg="Dashboard not found" logger=context userId=1 orgId=1 uname=admin error="Dashboard not found" remote_addr=127.0.0.1
+t=2023-02-16T09:19:35+0800 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/dashboards/uid/tijbLdm4k status=404 remote_addr=127.0.0.1 time_ms=1 size=33 referer=http://127.0.0.1:3000/dashboard/import
+t=2023-02-16T09:20:02+0800 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
